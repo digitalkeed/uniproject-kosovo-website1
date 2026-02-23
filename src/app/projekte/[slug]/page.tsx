@@ -6,8 +6,8 @@ import { PageHero } from "@/components/ui/PageHero";
 import { getProjectBySlug } from "@/content/projects";
 import { sectors } from "@/content/sectors";
 
-const heroImage =
-  "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200";
+import { projectSlugHero } from "@/content/images";
+const heroImage = projectSlugHero;
 
 type Props = { params: Promise<{ slug: string }> };
 

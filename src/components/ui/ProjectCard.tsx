@@ -4,8 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Project } from "@/content/projects";
 
-const placeholder =
-  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80";
+import { projectCardPlaceholder } from "@/content/images";
 
 type ProjectCardProps = {
   project: Project;
@@ -14,7 +13,7 @@ type ProjectCardProps = {
 };
 
 export function ProjectCard({ project, sectorLabel, typeLabel }: ProjectCardProps) {
-  const imgSrc = project.image ?? placeholder;
+  const imgSrc = project.image ?? projectCardPlaceholder;
   const metric = project.resultMetric ?? project.period ?? typeLabel;
 
   return (

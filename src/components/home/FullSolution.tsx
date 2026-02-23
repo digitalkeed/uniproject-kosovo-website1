@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Section } from "@/components/ui/Section";
 import Link from "next/link";
+import { homeSectionImages } from "@/content/images";
 
 const points = [
   { label: "Eksperiencë 24+ vjeçare", icon: "★" },
@@ -41,7 +42,7 @@ export function FullSolution() {
         </div>
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg order-1 lg:order-2">
           <Image
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+            src={homeSectionImages.fullSolution}
             alt="Zyrë moderne – pastrim dhe menaxhim profesional"
             fill
             className="object-cover"

@@ -6,23 +6,13 @@ import { CTA } from "@/components/ui/CTA";
 import { PageHero } from "@/components/ui/PageHero";
 import { getServiceBySlug } from "@/content/services";
 
-const heroImages: Record<string, string> = {
-  "pastrim-profesional":
-    "https://images.pexels.com/photos/5691584/pexels-photo-5691584.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "facility-management":
-    "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "dezinfektim-sanitizim":
-    "https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "fasadash-lartesi":
-    "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "panelesh-solare":
-    "https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "on-call":
-    "https://images.pexels.com/photos/7048134/pexels-photo-7048134.jpeg?auto=compress&cs=tinysrgb&w=1200",
-};
+import {
+  serviceHeroImages,
+  serviceHeroDefault,
+} from "@/content/images";
 
-const defaultHeroImage =
-  "https://images.pexels.com/photos/5691584/pexels-photo-5691584.jpeg?auto=compress&cs=tinysrgb&w=1200";
+const heroImages = serviceHeroImages;
+const defaultHeroImage = serviceHeroDefault;
 
 type Props = { params: Promise<{ slug: string }> };
 

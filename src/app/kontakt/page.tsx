@@ -2,8 +2,8 @@ import { Section } from "@/components/ui/Section";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { PageTemplate } from "@/components/layout/PageTemplate";
 
-const heroImage =
-  "https://images.pexels.com/photos/7688327/pexels-photo-7688327.jpeg?auto=compress&cs=tinysrgb&w=1200";
+import { kontaktHero } from "@/content/images";
+const heroImage = kontaktHero;
 
 const faq = [
   {

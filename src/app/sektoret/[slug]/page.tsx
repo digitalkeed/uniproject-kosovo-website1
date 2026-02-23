@@ -6,21 +6,13 @@ import { CTA } from "@/components/ui/CTA";
 import { PageHero } from "@/components/ui/PageHero";
 import { getSectorBySlug } from "@/content/sectors";
 
-const heroImages: Record<string, string> = {
-  banka:
-    "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "qendra-tregtare":
-    "https://images.pexels.com/photos/3252299/pexels-photo-3252299.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  publike:
-    "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "shendetesi-arsim":
-    "https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  industri:
-    "https://images.pexels.com/photos/3252299/pexels-photo-3252299.jpeg?auto=compress&cs=tinysrgb&w=1200",
-};
+import {
+  sectorHeroImages,
+  sectorHeroDefault,
+} from "@/content/images";
 
-const defaultHeroImage =
-  "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200";
+const heroImages = sectorHeroImages;
+const defaultHeroImage = sectorHeroDefault;
 
 type Props = { params: Promise<{ slug: string }> };
 

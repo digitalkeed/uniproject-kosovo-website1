@@ -5,12 +5,10 @@ import { CardGrid } from "@/components/ui/CardGrid";
 import { CTA } from "@/components/ui/CTA";
 import { PageHero } from "@/components/ui/PageHero";
 import { sectors } from "@/content/sectors";
+import { sektoretHero, sektoretSupport } from "@/content/images";
 
-const heroImage =
-  "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200";
-
-const supportImage =
-  "https://images.pexels.com/photos/3861969/3861969.jpeg?auto=compress&cs=tinysrgb&w=800";
+const heroImage = sektoretHero;
+const supportImage = sektoretSupport;
 
 export const metadata = {
   title: "Sektorët | UNI PROJECT",

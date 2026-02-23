@@ -4,36 +4,37 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Section } from "@/components/ui/Section";
+import { homeSectionImages } from "@/content/images";
 
 const sectors = [
   {
     href: "/sektoret/banka",
     label: "Banka & rrjet filialesh",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.sectorsStrip.banka,
     imageAlt: "Banka dhe rrjet filialesh",
   },
   {
     href: "/sektoret/qendra-tregtare",
     label: "Qendra tregtare",
-    image: "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.sectorsStrip.qendraTregtare,
     imageAlt: "Qendra tregtare",
   },
   {
     href: "/sektoret/publike",
     label: "Institucione publike / ndërkombëtare",
-    image: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.sectorsStrip.publike,
     imageAlt: "Institucione publike",
   },
   {
     href: "/sektoret/shendetesi-arsim",
     label: "Shëndetësi & arsim",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.sectorsStrip.shendetesiArsim,
     imageAlt: "Shëndetësi dhe arsim",
   },
   {
     href: "/sektoret/industri",
     label: "Industri & prodhim",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.sectorsStrip.industri,
     imageAlt: "Industri dhe prodhim",
   },
 ];

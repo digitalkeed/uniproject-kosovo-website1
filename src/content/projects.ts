@@ -43,7 +43,7 @@ export const projects: Project[] = [
     type: "case-study",
     period: "Kontratë vjetore",
     resultMetric: "Kontratë vjetore · Hapësira të mëdha",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600",
     problem: "Nevojë për pastrim dhe menaxhim të hapësirave të mëdha institucionale me standarde të larta dhe fleksibilitet orar.",
     solution: "Ofertë e përshtatur me ekipe të dedikuara, raportim dixhital dhe koordinim me orarin e punës së Kuvendit.",
     process: "Auditim fillestar, plan pune me SLA, ekzekutim me supervizim ditor dhe raporte mujore për klientin.",

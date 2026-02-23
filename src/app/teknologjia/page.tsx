@@ -6,12 +6,10 @@ import { CTA } from "@/components/ui/CTA";
 import { PageHero } from "@/components/ui/PageHero";
 import { techPillarIcons, benefitIcons } from "@/components/ui/icons";
 import type { IconCardItem } from "@/components/ui/IconCard";
+import { teknologjiaHero, teknologjiaSupport } from "@/content/images";
 
-const heroImage =
-  "https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1200";
-
-const imageBlockSrc =
-  "https://images.pexels.com/photos/3861969/3861969.jpeg?auto=compress&cs=tinysrgb&w=800";
+const heroImage = teknologjiaHero;
+const imageBlockSrc = teknologjiaSupport;
 
 const pillars = [
   {

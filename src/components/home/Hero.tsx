@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 import { Badge } from "@/components/ui/Badge";
 
-const heroImage =
-  "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80";
+const heroImage = "/hero.png";
 
 const statChips = [
   { value: "24+", label: "vite" },

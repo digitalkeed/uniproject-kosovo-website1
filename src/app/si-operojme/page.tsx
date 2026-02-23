@@ -11,12 +11,10 @@ import {
   qaLoopSteps,
 } from "@/content/process";
 import type { IconCardItem } from "@/components/ui/IconCard";
+import { siOperojmeHero, siOperojmeSupport } from "@/content/images";
 
-const heroImage =
-  "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200";
-
-const supportingImage =
-  "https://images.pexels.com/photos/3184418/3184418.jpeg?auto=compress&cs=tinysrgb&w=800";
+const heroImage = siOperojmeHero;
+const supportingImage = siOperojmeSupport;
 
 const whatClientGetsItems: IconCardItem[] = [
   {

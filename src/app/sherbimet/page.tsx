@@ -8,11 +8,9 @@ import { Button } from "@/components/ui/Button";
 import { PageTemplate } from "@/components/layout/PageTemplate";
 import { services } from "@/content/services";
 
-const heroImage =
-  "https://images.pexels.com/photos/5691584/pexels-photo-5691584.jpeg?auto=compress&cs=tinysrgb&w=1200";
-
-const supportImage =
-  "https://images.pexels.com/photos/5691584/pexels-photo-5691584.jpeg?auto=compress&cs=tinysrgb&w=800";
+import { sherbimetHero, sherbimetSupport } from "@/content/images";
+const heroImage = sherbimetHero;
+const supportImage = sherbimetSupport;
 
 export const metadata = {
   title: "Shërbimet | UNI PROJECT",

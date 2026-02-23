@@ -3,8 +3,8 @@ import { sectors } from "@/content/sectors";
 import { PageTemplate } from "@/components/layout/PageTemplate";
 import { ProjectsHubClient } from "./ProjectsHubClient";
 
-const heroImage =
-  "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200";
+import { projekteHero } from "@/content/images";
+const heroImage = projekteHero;
 
 export const metadata = {
   title: "Projekte & Referenca | UNI PROJECT",

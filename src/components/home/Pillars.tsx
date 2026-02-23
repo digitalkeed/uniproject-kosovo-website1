@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
+import { homeSectionImages } from "@/content/images";
 
 const pillars = [
   {
@@ -8,7 +9,7 @@ const pillars = [
     description:
       "Nga zyret tek qendrat tregtare, industriale dhe pas ndërtimit – përfshire dezinfektim dhe pastrim në lartësi.",
     href: "/sherbimet/pastrim-profesional",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.pillars.pastrim,
     imageAlt: "Pastrim profesional",
   },
   {
@@ -16,7 +17,7 @@ const pillars = [
     description:
       "Mirembajtje teknike, consumables, supervizim dhe monitorim cilësie me raportim.",
     href: "/sherbimet/facility-management",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.pillars.facility,
     imageAlt: "Objekt profesional – facility management",
   },
   {
@@ -24,7 +25,7 @@ const pillars = [
     description:
       "Shërbime sezonale, emergjente dhe orar i zgjatur, kurdo që kërkohet.",
     href: "/sherbimet/on-call",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+    image: homeSectionImages.pillars.oncall,
     imageAlt: "Gati 24/7",
   },
 ];

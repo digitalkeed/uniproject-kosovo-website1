@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Section } from "@/components/ui/Section";
+import { homeSectionImages } from "@/content/images";
 import { motion } from "framer-motion";
 
 const cards = [
@@ -120,7 +121,7 @@ export function ProcessBreakdown() {
             viewport={{ once: true }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+              src={homeSectionImages.processBreakdown}
               alt="Objekt profesional – pastrim dhe menaxhim i hapësirës"
               fill
               className="object-cover"

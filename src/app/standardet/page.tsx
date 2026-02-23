@@ -6,12 +6,10 @@ import { CTA } from "@/components/ui/CTA";
 import { PageHero } from "@/components/ui/PageHero";
 import { isoStandards, hseItems } from "@/content/standards";
 import { standardIcons } from "@/components/ui/icons";
+import { standardetHero, standardetSupport } from "@/content/images";
 
-const heroImage =
-  "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=1200";
-
-const imageBlockSrc =
-  "https://images.pexels.com/photos/7659564/7659564.jpeg?auto=compress&cs=tinysrgb&w=800";
+const heroImage = standardetHero;
+const imageBlockSrc = standardetSupport;
 
 const isoIconByKey: Record<string, ReactNode> = {
   "9001": standardIcons.quality,

@@ -5,6 +5,7 @@ import { Section } from "@/components/ui/Section";
 import { LogoWall } from "@/components/ui/LogoWall";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { homeSectionImages } from "@/content/images";
 
 const referenceLogos = [
   { name: "OSCE", placeholder: true },
@@ -25,7 +26,7 @@ export function References() {
             viewport={{ once: true }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+              src={homeSectionImages.references}
               alt="Ekipi UNI PROJECT në projekt – bashkëpunim dhe rezultate"
               fill
               className="object-cover"
