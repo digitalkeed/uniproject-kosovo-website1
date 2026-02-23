@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* UNI PROJECT brand: dark blue #22416f, olive green #6e9e3c */
+  --background: #fafafa;
+  --foreground: #1a2744;
+  --primary: #22416f;
+  --primary-foreground: #ffffff;
+  --primary-green: #6e9e3c;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #6e9e3c;
+  --border: #e2e8f0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
